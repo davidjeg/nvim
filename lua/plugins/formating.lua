@@ -18,11 +18,13 @@ return {
     local opts = {
       formatters_by_ft = {
         lua = { "stylua" },
-        html = { "prettier_d" },
-        css = { "prettier_d" },
-        json = { "prettier_d" },
-        javascript = { "prettier_d" },
-        typescript = { "prettier_d" },
+        html = { "prettier" },
+        css = { "prettier" },
+        scss = { "prettier" },
+        json = { "prettier" },
+        markdown = { "prettier" },
+        javascript = { "prettier" },
+        typescript = { "prettier" },
         javascriptreact = { "prettier_d" },
         typescriptreact = { "prettier_d" },
       },

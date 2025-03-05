@@ -1,12 +1,14 @@
 return {
   "williamboman/mason.nvim", -- Plugin principal de mason.nvim
   build = ":MasonUpdate",
+  cmd = "Mason",
   opts = {
     ensure_installed = {
       "pyright", -- Python LSP
       "vtsls", -- TS JS LSP
       "prettier", -- Formatter
       "tailwindcss-language-server", -- Tailwind LSP
+      "lua-language-server", -- Lua LSP
       "eslint_d", -- Linter
       "css-lsp", -- CSS LESS SCSS
     },
